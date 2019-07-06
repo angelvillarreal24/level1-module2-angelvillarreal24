@@ -7,9 +7,13 @@ public class Minion {
 		private String master;
 		public static void main(String[] args) {
 			Minion stuart = new Minion("Stuart", 1, "yellow", "");
+			
 		}
 		Minion(String name, int eyes, String color, String master){
-			
+			setName(name);
+			setEyes(eyes);
+			setColor(color);
+			setMaster(master);
 		}
 		public String getName()	{
 			return name;
